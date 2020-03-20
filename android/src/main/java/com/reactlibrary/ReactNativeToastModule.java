@@ -34,6 +34,7 @@ public class ReactNativeToastModule extends ReactContextBaseJavaModule {
         final Map<String, Object> constants = new HashMap<>();
         constants.put(DURATION_SHORT_KEY, Toast.LENGTH_SHORT);
         constants.put(DURATION_LONG_KEY, Toast.LENGTH_LONG);
+        return constants;
     }
 
     @ReactMethod
